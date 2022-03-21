@@ -46,3 +46,4 @@ if __name__ == '__main__':
     fibonacciThread = FibonacciThread(n)
     fibonacciThread.start()  
     
+    print("Main Thread Started to wait for the Fibonacci Thread to complete");
